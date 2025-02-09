@@ -11,7 +11,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>NexTemp Built with Nextjs</title>
+        <title></title>
         <meta
           name="description"
           content="Next Portfolio, A open-source portfolio theme built with Nextjs"
@@ -39,7 +39,7 @@ export default function Home() {
             </div>
             <div className="flex w-1/2 flex-col items-center self-center lg:w-full lg:text-center">
               <AnimatedText
-                text="Hey, I’m Riley"
+                text="Hey, I’m Dewantha"
                 className="!text-left !text-6xl xl:!text-5xl lg:!text-center lg:!text-6xl md:!text-5xl sm:!text-3xl"
               />
               <div className="flex w-1/2 w-full items-center items-start lg:w-full  lg:!justify-center  sm:!justify-center  md:!text-center md:inline-block md:w-full">
