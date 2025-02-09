@@ -17,7 +17,7 @@ const Footer = () => {
           {""}
           by&nbsp;
           <Link
-            href="https://travislord.xyz/"
+            href="https://rolandsamidu.github.io/Portfolio/"
             className="underline underline-offset-2"
           >
             DewA3RS
