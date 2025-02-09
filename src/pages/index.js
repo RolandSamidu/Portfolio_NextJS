@@ -44,7 +44,7 @@ export default function Home() {
               />
               <div className="flex w-1/2 w-full items-center items-start lg:w-full  lg:!justify-center  sm:!justify-center  md:!text-center md:inline-block md:w-full">
                 <h2 className="animate-text bg-gradient-to-r from-lightGreen via-lightGreen to-slideGreen bg-clip-text text-transparent font-semibold capitalize !text-5xl xl:!text-4xl lg:!text-4xl md:!text-5xl sm:!text-3xl">
-                  I create engaging web experiences.
+                  I’m a Passionate Full Stack Developer and Tutor.
                 </h2>
               </div>
 
