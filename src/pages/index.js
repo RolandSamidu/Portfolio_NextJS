@@ -44,12 +44,12 @@ export default function Home() {
               />
               <div className="flex w-1/2 w-full items-center items-start lg:w-full  lg:!justify-center  sm:!justify-center  md:!text-center md:inline-block md:w-full">
                 <h2 className="animate-text bg-gradient-to-r from-lightGreen via-lightGreen to-slideGreen bg-clip-text text-transparent font-semibold capitalize !text-5xl xl:!text-4xl lg:!text-4xl md:!text-5xl sm:!text-3xl">
-                  I’m a Passionate Full Stack Developer and Dedicated Tutor.
+                  I’m a Passionate Full Stack Developer and Tutor.
                 </h2>
               </div>
 
               <p className="my-4 text-base font-medium md:text-sm sm:!text-sm">
-                "Hello World, I'm a passionate Full Stack Developer and Tutor
+                "Hello World, I'm a passionate Full Stack Developer and dedicated Tutor
                 with a strong foundation in software engineering. I enjoy
                 solving complex problems and building innovative web and mobile
                 applications. With expertise in Java, JavaScript (MERN), and
@@ -69,7 +69,7 @@ export default function Home() {
             md:p-2 md:px-4 md:text-base
              `}
                 >
-                  Get To Know Me
+                  Learn More About Me
                 </Link>
                 <Link
                   href="/projects/"
