@@ -49,10 +49,14 @@ export default function Home() {
               </div>
 
               <p className="my-4 text-base font-medium md:text-sm sm:!text-sm">
-                I'm a front-end web developer at Stellar Innovations, passionate
-                about creating dynamic and user-friendly web experiences. With a
-                keen eye for design and a robust understanding of front-end and
-                back-end technologies.
+                "Welcome to my portfolio! I am Dewantha, a passionate Full Stack
+                Developer and dedicated tutor. As a final-year Software
+                Engineering student at SLIIT, I have been honing my skills in
+                Java, JavaScript (MERN), and Python, while leading various web
+                and mobile development projects. I strongly believe in
+                continuous learning, self-improvement, and hard work to achieve
+                success. Explore my work and journey as I strive to innovate and
+                create impactful digital solutions."
               </p>
               <div className="mt-2 flex items-center self-start gap-3 grid-cols-2 lg:self-center">
                 <Link
