@@ -39,18 +39,17 @@ export default function Home() {
             </div>
             <div className="flex w-1/2 flex-col items-center self-center lg:w-full lg:text-center">
               <AnimatedText
-                text="Hey, I’m Dewantha"
+                text="Hello World, I’m Dewantha"
                 className="!text-left !text-6xl xl:!text-5xl lg:!text-center lg:!text-6xl md:!text-5xl sm:!text-3xl"
               />
               <div className="flex w-1/2 w-full items-center items-start lg:w-full  lg:!justify-center  sm:!justify-center  md:!text-center md:inline-block md:w-full">
                 <h2 className="animate-text bg-gradient-to-r from-lightGreen via-lightGreen to-slideGreen bg-clip-text text-transparent font-semibold capitalize !text-5xl xl:!text-4xl lg:!text-4xl md:!text-5xl sm:!text-3xl">
-                  I’m a Passionate Full Stack Developer and Tutor.
+                  I’m a Passionate Full Stack Developer and Dedicated Tutor.
                 </h2>
               </div>
 
               <p className="my-4 text-base font-medium md:text-sm sm:!text-sm">
-                "Welcome to my portfolio! I am Dewantha, a passionate Full Stack
-                Developer and dedicated tutor. As a final-year Software
+                "Welcome to my portfolio! As a final-year Software
                 Engineering student at SLIIT, I have been honing my skills in
                 Java, JavaScript (MERN), and Python, while leading various web
                 and mobile development projects. I strongly believe in
