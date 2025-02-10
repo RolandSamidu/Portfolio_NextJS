@@ -49,13 +49,15 @@ export default function Home() {
               </div>
 
               <p className="my-4 text-base font-medium md:text-sm sm:!text-sm">
-                "Welcome to my portfolio! As a final-year Software
-                Engineering student at SLIIT, I have been honing my skills in
-                Java, JavaScript (MERN), and Python, while leading various web
-                and mobile development projects. I strongly believe in
-                continuous learning, self-improvement, and hard work to achieve
-                success. Explore my work and journey as I strive to innovate and
-                create impactful digital solutions."
+                "Hi, I'm Dewantha, a passionate Full Stack Developer and Tutor
+                with a strong foundation in software engineering. I enjoy
+                solving complex problems and building innovative web and mobile
+                applications. With expertise in Java, JavaScript (MERN), and
+                Python, I have led multiple team projects, creating efficient
+                and scalable solutions. I believe in continuous learning,
+                dedication, and hard work, striving to refine my skills every
+                day. Explore my portfolio to discover my projects, skills, and
+                experiences."
               </p>
               <div className="mt-2 flex items-center self-start gap-3 grid-cols-2 lg:self-center">
                 <Link
