@@ -39,7 +39,7 @@ export default function Home() {
             </div>
             <div className="flex w-1/2 flex-col items-center self-center lg:w-full lg:text-center">
               <AnimatedText
-                text="Hello World, I’m Dewantha"
+                text="Hi, I’m Dewantha"
                 className="!text-left !text-6xl xl:!text-5xl lg:!text-center lg:!text-6xl md:!text-5xl sm:!text-3xl"
               />
               <div className="flex w-1/2 w-full items-center items-start lg:w-full  lg:!justify-center  sm:!justify-center  md:!text-center md:inline-block md:w-full">
@@ -49,7 +49,7 @@ export default function Home() {
               </div>
 
               <p className="my-4 text-base font-medium md:text-sm sm:!text-sm">
-                "Hi, I'm Dewantha, a passionate Full Stack Developer and Tutor
+                "Hello World, I'm a passionate Full Stack Developer and Tutor
                 with a strong foundation in software engineering. I enjoy
                 solving complex problems and building innovative web and mobile
                 applications. With expertise in Java, JavaScript (MERN), and
