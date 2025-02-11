@@ -38,7 +38,7 @@ export default function About() {
   return (
     <>
       <Head>
-        <title>About NexTemp</title>
+        <title>About Me</title>
         <meta
           name="description"
           content="NexTemp, A open-source portfolio theme built with Nextjs"
@@ -51,8 +51,8 @@ export default function About() {
       >
         <Layout className="pt-16">
           <AnimatedText
-            text="Let Passion Lead Your Purpose 🔥"
-            className="mb-16 !text-8xl !leading-tight lg:!text-7xl sm:!text-6xl xs:!text-4xl sm:mb-8"
+            text="⭐All your dreams can come true, if you have the courage to purse them.⭐"
+            className="mb-16 !text-5xl !leading-tight lg:!text-7xl sm:!text-6xl xs:!text-4xl sm:mb-8"
           />
 
           <div className="grid w-full grid-cols-8 gap-16 sm:gap-8">
@@ -64,27 +64,27 @@ export default function About() {
                 BIOGRAPHY
               </h2>
               <p className="font-medium ">
-                I'm Riley, a dedicated web developer at Stellar Innovations,
-                where I specialize in creating dynamic and user-centric web
-                experiences. With over a decade of experience in the industry, I
-                have honed my skills in both front-end and back-end
-                technologies, allowing me to deliver responsive and
-                high-performance websites and applications.
+                <b>I am a fresh graduate in Software Engineering with hands-on
+                experience in full-stack development.</b> My journey in technology
+                began at St. Joseph Vaz College, Wennappuwa, where I completed
+                my Ordinary Level and Advanced Level education. Afterward, I
+                pursued my passion for software development at SLIIT, where I
+                completed My <b>IT(B.Sc)Hons</b> Degree. Throughout my academic and
+                professional journey, I have led multiple web and mobile
+                development projects, honing my expertise in <b>Java, JavaScript
+                (MERN), and Python</b>. My problem-solving mindset and leadership
+                skills have enabled me to build scalable applications while
+                collaborating effectively with teams.
               </p>
               <p className="my-4 font-medium">
-                At Stellar Innovations, I've had the opportunity to work on
-                numerous high-profile projects that have challenged and expanded
-                my expertise. My technical skill set includes HTML, CSS,
-                JavaScript, React, and Node.js, among other technologies. One of
-                my notable projects involved developing a comprehensive
-                e-commerce platform that streamlined the user experience and
-                significantly boosted the client's sales. Another project I’m
-                particularly proud of was creating an interactive web
-                application for a major event, which received widespread acclaim
-                for its intuitive design and seamless performance.
+                I am highly self-confident and dedicated to continuous
+                improvement. Every mistake is a lesson, and I believe that
+                success comes through hard work, persistence, and a willingness
+                to learn. My goal is to contribute to the tech industry by
+                developing impactful solutions that make a difference.
               </p>
               <p className="my-4 font-medium">
-                P.s I'm a big fan of anime and not a real person ✌️.
+                🔅I'm a big fan of Cricket and Football ✌️.
               </p>
             </div>
             <div
