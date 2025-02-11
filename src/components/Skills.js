@@ -41,7 +41,7 @@ const Skills = () => {
         dark:bg-light dark:text-dark lg:p-6 md:p-4 xs:text-xs xs:p-2
         "
         >
-          Web
+          Web / Mobile
         </motion.div>
 
         <Skill name="HTML" x="-20vw" y="2vw" />
