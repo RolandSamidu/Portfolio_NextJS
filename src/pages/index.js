@@ -11,7 +11,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title></title>
+        <title>DewA3RS - Portfolio</title>
         <meta
           name="description"
           content="Next Portfolio, A open-source portfolio theme built with Nextjs"
