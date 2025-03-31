@@ -9,13 +9,13 @@ const NotFound = () => {
   return (
     <>
       <Head>
-        <title>Awesome Portfolio Built with Nextjs | 404 Page </title>
+        <title>DewA3RS - Portfolio | 404 Page </title>
       </Head>
       <TransitionEffect />
       <main className="h-[100vh] w-full dark:bg-dark ">
         <Layout className="relative !bg-transparent !pt-16 flex flex-col items-center justify-center">
           <AnimatedText text="404" className=" " />
-          <AnimatedText text="Page Not Found." className=" !text-7xl " />
+          <AnimatedText text="Ohh.. Man! Go Back." className=" !text-7xl " />
           <Link
             href="/"
             className="self-center !mt-4 inline-block rounded-lg border-2 border-solid bg-dark px-4 py-2
