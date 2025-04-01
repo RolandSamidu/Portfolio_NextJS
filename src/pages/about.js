@@ -1,7 +1,7 @@
 import Layout from "@/components/Layout";
 import Head from "next/head";
 import Image from "next/image";
-import profile from "../../public/images/profile/Riley.png";
+import profile from "../../public/images/profile/profile.png";
 import { useInView, useMotionValue, useSpring } from "framer-motion";
 import { useEffect, useRef } from "react";
 import Skills from "@/components/Skills";
@@ -126,7 +126,7 @@ export default function About() {
 
               <div className="flex flex-col items-end justify-center xl:items-center">
                 <span className="inline-block text-7xl font-bold md:text-6xl sm:text-5xl xs:text-4xl">
-                  <AnimatedNumberFramerMotion value={99} />+
+                  <AnimatedNumberFramerMotion value={55} />+
                 </span>
                 <h3
                   className="mb-4 text-xl font-medium capitalize text-dark/75 dark:text-light/75 
@@ -138,7 +138,7 @@ export default function About() {
 
               <div className="flex flex-col items-end justify-center xl:items-center">
                 <span className="inline-block text-7xl font-bold md:text-6xl sm:text-5xl xs:text-4xl">
-                  <AnimatedNumberFramerMotion value={15} />
+                  <AnimatedNumberFramerMotion value={23} />
                 </span>
                 <h3
                   className="mb-4 text-xl font-medium capitalize text-dark/75 dark:text-light/75 
