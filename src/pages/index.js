@@ -5,7 +5,7 @@ import Head from "next/head";
 import Image from "next/image";
 import Link from "next/link";
 import TransitionEffect from "@/components/TransitionEffect";
-import profilePic from "../../public/images/profile/Riley.png";
+import profilePic from "../../public/images/profile/profile.png";
 
 export default function Home() {
   return (
@@ -39,25 +39,24 @@ export default function Home() {
             </div>
             <div className="flex w-1/2 flex-col items-center self-center lg:w-full lg:text-center">
               <AnimatedText
-                text="Hi, I’m Dewantha"
+                text="Hi, I’m Dewantha,"
                 className="!text-left !text-6xl xl:!text-5xl lg:!text-center lg:!text-6xl md:!text-5xl sm:!text-3xl"
               />
               <div className="flex w-1/2 w-full items-center items-start lg:w-full  lg:!justify-center  sm:!justify-center  md:!text-center md:inline-block md:w-full">
                 <h2 className="animate-text bg-gradient-to-r from-lightGreen via-lightGreen to-slideGreen bg-clip-text text-transparent font-semibold capitalize !text-5xl xl:!text-4xl lg:!text-4xl md:!text-5xl sm:!text-3xl">
-                  I’m a Passionate Full Stack Developer and Tutor.
+                  a passionate Full Stack Developer and dedicated Tutor
                 </h2>
               </div>
 
               <p className="my-4 text-base font-medium md:text-sm sm:!text-sm">
-                "Hello World, I'm a passionate Full Stack Developer and dedicated Tutor
-                with a strong foundation in software engineering. I enjoy
+                "with a strong foundation in software engineering. I enjoy
                 solving complex problems and building innovative web and mobile
-                applications. With expertise in Java, JavaScript (MERN), and
-                Python, I have led multiple team projects, creating efficient
-                and scalable solutions. I believe in continuous learning,
-                dedication, and hard work, striving to refine my skills every
-                day. Explore my portfolio to discover my projects, skills, and
-                experiences."
+                applications. With expertise in Java, Python, and
+                JavaScript including the MERN stack I have led multiple team
+                projects, creating efficient and scalable solutions. I am
+                committed to continuous learning and always strive to refine my
+                skills. Feel free to explore my portfolio to discover my
+                projects, skills, and experiences."
               </p>
               <div className="mt-2 flex items-center self-start gap-3 grid-cols-2 lg:self-center">
                 <Link
