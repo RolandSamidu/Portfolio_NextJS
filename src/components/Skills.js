@@ -44,17 +44,26 @@ const Skills = () => {
           Web / Mobile
         </motion.div>
 
-        <Skill name="HTML" x="-20vw" y="2vw" />
-        <Skill name="Tailwind" x="-5vw" y="-10vw" />
-        <Skill name="JavaScript" x="20vw" y="6vw" />
-        <Skill name="TypeScript" x="0vw" y="12vw" />
-        <Skill name="Next.js" x="-20vw" y="-15vw" />
-        <Skill name="Gatsby" x="15vw" y="-12vw" />
-        <Skill name="Git" x="-35vw" y="-5vw" />
-        <Skill name="UI / UX" x="32vw" y="-5vw" />
-        <Skill name="Node.js" x="0vw" y="-20vw" />
-        <Skill name="React" x="-25vw" y="18vw" />
-        <Skill name="Framer Motion" x="28vw" y="18vw" />
+        <Skill name="HTML / CSS" x="-18vw" y="0vw" />
+        <Skill name="Java" x="-6vw" y="-11vw" />
+        <Skill name="JavaScript" x="17vw" y="5vw" />
+        <Skill name="TypeScript" x="0vw" y="13vw" />
+        <Skill name="Python" x="13vw" y="-10vw" />
+        <Skill name="Next.js" x="-22vw" y="-16vw" />
+        <Skill name="Express" x="35vw" y="-5vw" />
+        <Skill name="Node.js" x="0vw" y="-22vw" />
+        <Skill name="Android" x="-16vw" y="-28vw" />
+        <Skill name="React-Native" x="18vw" y="-28vw" />
+        <Skill name="React" x="-18vw" y="14vw" />
+        <Skill name="Spring Boot" x="35vw" y="14vw" />
+        <Skill name="Git" x="0vw" y="-32vw" />
+        <Skill name="Postman" x="-35vw" y="-7vw" />
+        <Skill name="Docker" x="8vw" y="30vw" />
+        <Skill name="ML / DL" x="-32vw" y="19vw" />
+        <Skill name="IoT" x="24vw" y="-17vw" />
+        <Skill name="MongoDB" x="-14vw" y="29vw" />
+        <Skill name="MySQL" x="-32vw" y="6vw" />
+        <Skill name="Firebase" x="20vw" y="18vw" />
       </div>
     </>
   );

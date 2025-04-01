@@ -2,7 +2,7 @@
   "name": "NexTemp",
   "private": true,
   "version": "1.0.0",
-  "author": "Travis Lord <hi@travislord.xyz>",
+  "author": "Travis Lord (modified by DewA3RS)",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
