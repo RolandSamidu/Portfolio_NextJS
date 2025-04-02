@@ -44,7 +44,7 @@ const Experience = () => {
   });
 
   return (
-    <div className="my-64">
+    <div className="my-32">
       <h2 className="font-bold text-8xl mb-32 w-full text-center md:text-6xl xs:text-4xl md:mb-16">
         Experience
       </h2>
@@ -61,7 +61,7 @@ const Experience = () => {
             position="Developer"
             company="Inspired Business Solution"
             time="2023 - 2024"
-            address="Battramulla. Sri Lanka"
+            address="Battramulla, Sri Lanka"
             companyLink="https://inspiredlk.com/"
             work="At Inspired Business Solution, I gained hands-on experience in software development using various programming languages and technologies, including Java, JavaScript, Python, and the MERN stack. I contributed to several projects, such as developing a Cinnamon Cultivation Development Application and an Inventory Management System, where I utilized tools like Visual Studio Code, Android Studio, and Eclipse IDE."
           />
@@ -72,7 +72,7 @@ const Experience = () => {
             time="2024"
             address="Virtual Location"
             companyLink=""
-            work="I created software developing team with some members"
+            work="I started the Picozen software development team because I wanted to create something of my own. There are four members in the team, including me. Three of my close friends joined me, and together, we built this from the ground up. At first, we worked on small projects, but later, we took on more advanced ones involving Machine Learning and Deep Learning. Over time, we even started getting projects from international clients. Now, we are committed to growing this team and continuing this journey for the long run."
           />
         </ul>
       </div>
