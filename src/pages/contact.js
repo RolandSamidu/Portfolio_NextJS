@@ -48,11 +48,8 @@ export default function About() {
   return (
     <>
       <Head>
-        <title>NexTemp Built with Nextjs</title>
-        <meta
-          name="description"
-          content="NexTemp, A open-source portfolio theme built with Nextjs"
-        />
+        <title>DewA3RS - Contact me</title>
+        <meta name="description" content="Contact page" />
       </Head>
 
       <TransitionEffect />
@@ -61,23 +58,25 @@ export default function About() {
       >
         <Layout className="pt-16">
           <AnimatedText
-            text="Begin Today,
-I'm One Message Away 👋"
-            className="mb-16 !text-8xl !leading-tight lg:!text-7xl sm:!text-6xl xs:!text-4xl sm:mb-8"
+            text="Every Great Journey Begins with a Message! 💬"
+            className="mb-10 !text-6xl !leading-snug lg:!text-5xl sm:!text-4xl xs:!text-3xl sm:mb-6"
           />
 
           <div className="grid w-full grid-cols-8 gap-16 sm:gap-8 relative flex w-full flex-col items-center justify-center rounded-2xl rounded-br-2xl border border-solid border-dark bg-light p-6 shadow-2xl dark:border-light dark:bg-dark xs:p-4">
             <div className="absolute top-0 -right-5 -z-10 h-[103%] w-[101.5%] rounded-[2rem] rounded-br-3xl bg-dark dark:bg-light md:-right-2 md:w-[101%] xs:h-[102%] xs:rounded-[1.5rem]" />
             <div className="col-span-4 flex flex-col items-start justify-start xl:col-span-4 md:order-1 md:col-span-8">
-              <h2 className="my-4 text-2xl font-bold capitalize text-primaryDark dark:text-primaryDark">
-                What’s Next?
+              <h2 className="my-4 text-2xl font-bold capitalize text-primary dark:text-primary">
+                Always Here to Chat! ✨
               </h2>
 
               <div className="w-full"></div>
               <p className="">
-                My inbox is always open. Whether you have a question or just
-                want to say hello, I'll try my best to get back to you! Feel
-                free to message me about any relevant project updates.
+                Have a tech question? Need an IT solution? My inbox is always
+                open! Whether you just want to say hello or discuss an important
+                project update, I’ll always try my best to get back to you! Feel
+                free to ask me any IT-related questions. If you need an
+                IT-related business solution, I will find and provide you with
+                the most accurate solution through a reliable approach.
               </p>
             </div>
             <div className="relative col-span-4 h-max xl:col-span-4 md:col-span-8 md:order-2">
@@ -149,7 +148,7 @@ I'm One Message Away 👋"
                         type="submit"
                         className="px-4 py-2 font-bold capitalize text-light bg-dark border border-2 border-solid border-dark dark:border-light dark:bg-light rounded-md hover:bg-transparent hover:text-dark dark:hover:text-light dark:hover:bg-dark dark:hover:border-light dark:hover:bg-dark dark:text-dark dark:hover:text-light"
                       >
-                        Send it!
+                        Send
                       </button>
                     </div>
                   </form>
