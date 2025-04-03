@@ -65,7 +65,7 @@ export const LinkedInIcon = ({ className, ...rest }) => (
         height="28.80"
         rx="14.4"
         fill="#f5f5f5"
-        W="0"
+        w="0"
       ></rect>
     </g>
     <g
