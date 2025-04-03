@@ -1,7 +1,6 @@
 import React, { useRef } from "react";
 import { motion, useScroll } from "framer-motion";
 import LiIcon from "./LiIcon";
-import Link from "next/link";
 
 const Details = ({
   level,
@@ -36,7 +35,12 @@ const Details = ({
         <span className="capitalize text-dark/75 font-medium dark:text-light/50 xs:text-sm">
           {year} | {address}
         </span>
-        <p className="font-medium w-full md:text-sm"> {details}</p>
+        {details.split("\n").map((sentence, index) => (
+          <p className="font-medium w-full md:text-sm" key={index}>
+            {sentence.trim()}
+          </p>
+        ))}
+        {/* <p className="font-medium w-full md:text-sm"> {details}</p> */}
       </motion.div>
     </li>
   );
@@ -79,7 +83,7 @@ const Experience = () => {
             year="2016 - 2018"
             address="Wennappuwa, Sri Lanka"
             instituteLink="https://www.josephvazcollege.lk/"
-            details="At St. Joseph Vaz College, I gained more knowledge about general "
+            details="At St. Joseph Vaz College, I pursued Bio Science for my Advanced Level studies, which gave me a strong understanding and experience in science subjects, and I obtained the following results: Biology - C, Chemistry - C, and Physics - S."
           />
 
           <Details
@@ -88,7 +92,19 @@ const Experience = () => {
             year="2020 - 2024"
             address="Malabe, Sri Lanka"
             instituteLink="https://www.sliit.lk/"
-            details="I created software developing team with some members"
+            details={`In my first year, I was highly focused on learning IT concepts. 
+              I gained a solid understanding of programming languages like PHP, C, and C++. That was also when I developed my first web application! 💻 Alongside academics, I actively participated in extracurricular activities like cricket and chess. 🏏♟️ 
+            
+              The second year was all about diving deep into academic work. 📚 
+              I specialized in Java application development and built my first mobile app using Android Studio. 
+              (Though back then, it was in Java, not Kotlin 😆). 
+            
+              I explored algorithms and data structures, but I truly mastered them in my third year. 
+            
+              During my third year, I completed my first internship, which was a huge milestone. 🎉 
+              I also developed my first MERN stack application—since then, I’ve built over 50 applications! The fourth year? Well… let’s just say it was intense! 😅 I was super busy, mainly because of my research work. 
+            
+              Now, I proudly hold a Bachelor of Science (Hons) in Information Technology—an achievement that marks the beginning of an even bigger journey ahead! 🎓✨`}
           />
         </ul>
       </div>
