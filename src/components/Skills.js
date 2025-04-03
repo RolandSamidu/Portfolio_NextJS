@@ -44,26 +44,26 @@ const Skills = () => {
           Web / Mobile
         </motion.div>
 
-        <Skill name="HTML / CSS" x="-18vw" y="0vw" />
-        <Skill name="Java" x="-6vw" y="-11vw" />
-        <Skill name="JavaScript" x="17vw" y="5vw" />
-        <Skill name="TypeScript" x="0vw" y="13vw" />
-        <Skill name="Python" x="13vw" y="-10vw" />
-        <Skill name="Next.js" x="-22vw" y="-16vw" />
-        <Skill name="Express" x="35vw" y="-5vw" />
-        <Skill name="Node.js" x="0vw" y="-22vw" />
-        <Skill name="Android" x="-16vw" y="-28vw" />
-        <Skill name="React-Native" x="18vw" y="-28vw" />
-        <Skill name="React" x="-18vw" y="14vw" />
-        <Skill name="Spring Boot" x="35vw" y="14vw" />
-        <Skill name="Git" x="0vw" y="-32vw" />
-        <Skill name="Postman" x="-35vw" y="-7vw" />
-        <Skill name="Docker" x="8vw" y="30vw" />
-        <Skill name="ML / DL" x="-32vw" y="19vw" />
-        <Skill name="IoT" x="24vw" y="-17vw" />
-        <Skill name="MongoDB" x="-14vw" y="29vw" />
-        <Skill name="MySQL" x="-32vw" y="6vw" />
-        <Skill name="Firebase" x="20vw" y="18vw" />
+        <Skill name="HTML / CSS" x="-13vw" y="0vw" />
+        <Skill name="Java" x="-6vw" y="-7vw" />
+        <Skill name="JavaScript" x="13vw" y="0vw" />
+        <Skill name="TypeScript" x="0vw" y="7vw" />
+        <Skill name="Python" x="6vw" y="-7vw" />
+        <Skill name="Next.js" x="-15vw" y="-12vw" />
+        <Skill name="Express" x="30vw" y="-5vw" />
+        <Skill name="Node.js" x="0vw" y="-14vw" />
+        <Skill name="Android" x="-18vw" y="-20vw" />
+        <Skill name="React-Native" x="18vw" y="-18vw" />
+        <Skill name="React" x="-16vw" y="10vw" />
+        <Skill name="Spring Boot" x="25vw" y="8vw" />
+        <Skill name="Git" x="0vw" y="-21vw" />
+        <Skill name="Postman" x="-30vw" y="-7vw" />
+        <Skill name="Docker" x="8vw" y="15vw" />
+        <Skill name="ML / DL" x="-32vw" y="3vw" />
+        <Skill name="IoT" x="16vw" y="-8vw" />
+        <Skill name="MongoDB" x="-9vw" y="20vw" />
+        <Skill name="MySQL" x="-28vw" y="16vw" />
+        <Skill name="Firebase" x="20vw" y="20vw" />
       </div>
     </>
   );

@@ -8,6 +8,7 @@ import Skills from "@/components/Skills";
 import Experience from "@/components/Experience";
 import AnimatedText from "@/components/AnimatedText";
 import TransitionEffect from "@/components/TransitionEffect";
+import Education from "@/components/Education";
 import { HireMe2 } from "@/components/HireMe2";
 
 function AnimatedNumberFramerMotion({ value }) {
@@ -152,6 +153,7 @@ export default function About() {
           </div>
 
           <Skills />
+          <Education />
           <Experience />
         </Layout>
       </main>

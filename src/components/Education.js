@@ -1,9 +1,15 @@
 import React, { useRef } from "react";
 import { motion, useScroll } from "framer-motion";
 import LiIcon from "./LiIcon";
-import Link from "next/link";
 
-const Details = ({ position, company, companyLink, time, address, work }) => {
+const Details = ({
+  level,
+  institute,
+  instituteLink,
+  year,
+  address,
+  details,
+}) => {
   const ref = useRef(null);
   return (
     <li
@@ -17,19 +23,24 @@ const Details = ({ position, company, companyLink, time, address, work }) => {
         transition={{ duration: 0.5, type: "spring" }}
       >
         <h3 className="capitalize font-bold text-2xl sm:text-xl xs:text-lg">
-          {position}{" "}
+          {level}{" "}
           <a
             className="capitalize text-slideGreen dark:text-primaryDark"
-            href={companyLink}
+            href={instituteLink}
             target={"_blank"}
           >
-            @{company}
+            @{institute}
           </a>
         </h3>
         <span className="capitalize text-dark/75 font-medium dark:text-light/50 xs:text-sm">
-          {time} | {address}
+          {year} | {address}
         </span>
-        <p className="font-medium w-full md:text-sm"> {work}</p>
+        {details.split("\n").map((sentence, index) => (
+          <p className="font-medium w-full md:text-sm" key={index}>
+            {sentence.trim()}
+          </p>
+        ))}
+        {/* <p className="font-medium w-full md:text-sm"> {details}</p> */}
       </motion.div>
     </li>
   );
@@ -44,9 +55,9 @@ const Experience = () => {
   });
 
   return (
-    <div className="my-64">
+    <div className="my-32">
       <h2 className="font-bold text-8xl mb-32 w-full text-center md:text-6xl xs:text-4xl md:mb-16">
-        Experience
+        Education
       </h2>
 
       <div ref={ref} className="relative w-[75%] mx-auto lg:w-[90%] md:w-full">
@@ -58,47 +69,44 @@ const Experience = () => {
 
         <ul className="w-full flex flex-col items-start justify-between ml-4 xs:ml-2">
           <Details
-            position="Developer"
-            company="Inspired Business Solution"
-            time="2023 - 2024"
-            address="Battramulla. Sri Lanka"
-            companyLink="https://inspiredlk.com/"
-            work="At Inspired Business Solution, I gained hands-on experience in software development using various programming languages and technologies, including Java, JavaScript, Python, and the MERN stack. I contributed to several projects, such as developing a Cinnamon Cultivation Development Application and an Inventory Management System, where I utilized tools like Visual Studio Code, Android Studio, and Eclipse IDE."
+            level="Ordinary Level"
+            institute="St. Joseph Vaz College"
+            year="2014 - 2015"
+            address="Wennappuwa, Sri Lanka"
+            instituteLink="https://www.josephvazcollege.lk/"
+            details="At St. Joseph Vaz College, During my Ordinary Level exams, I focused on gaining general knowledge alongside my studies and achieved excellent results, scoring A grades in Mathematics, Science, ICT, and English."
           />
 
           <Details
-            position="Team Manager"
-            company="PICOZEN"
-            time="2024"
-            address="Virtual Location"
-            companyLink=""
-            work="I created software developing team with some members"
+            level="Advanced Level"
+            institute="St. Joseph Vaz College"
+            year="2016 - 2018"
+            address="Wennappuwa, Sri Lanka"
+            instituteLink="https://www.josephvazcollege.lk/"
+            details="At St. Joseph Vaz College, I pursued Bio Science for my Advanced Level studies, which gave me a strong understanding and experience in science subjects, and I obtained the following results: Biology - C, Chemistry - C, and Physics - S."
+          />
+
+          <Details
+            level="University"
+            institute="SLIIT"
+            year="2020 - 2024"
+            address="Malabe, Sri Lanka"
+            instituteLink="https://www.sliit.lk/"
+            details={`In my first year, I was highly focused on learning IT concepts. 
+              I gained a solid understanding of programming languages like PHP, C, and C++. That was also when I developed my first web application! 💻 Alongside academics, I actively participated in extracurricular activities like cricket and chess. 🏏♟️ 
+            
+              The second year was all about diving deep into academic work. 📚 
+              I specialized in Java application development and built my first mobile app using Android Studio. 
+              (Though back then, it was in Java, not Kotlin 😆). 
+            
+              I explored algorithms and data structures, but I truly mastered them in my third year. 
+            
+              During my third year, I completed my first internship, which was a huge milestone. 🎉 
+              I also developed my first MERN stack application—since then, I’ve built over 50 applications! The fourth year? Well… let’s just say it was intense! 😅 I was super busy, mainly because of my research work. 
+            
+              Now, I proudly hold a Bachelor of Science (Hons) in Information Technology—an achievement that marks the beginning of an even bigger journey ahead! 🎓✨`}
           />
         </ul>
-      </div>
-      <div className="mt-40 flex items-center justify-between gap-3 grid-cols-2">
-        <Link
-          href="/projects/"
-          target={"_self"}
-          className={`flex items-center rounded-lg border-2 border-solid bg-light p-2.5 px-6 text-lg font-semibold
-            capitalize text-dark hover:border-light hover:bg-dark hover:text-light 
-            dark:bg-dark dark:text-light dark:hover:bg-light dark:hover:text-dark
-            md:p-2 md:px-4 md:text-base
-             `}
-        >
-          View Projects
-        </Link>
-        <Link
-          href="/articles/"
-          target={"_self"}
-          className={`flex items-center rounded-lg border-2 border-solid bg-dark p-2.5 px-6 text-lg font-semibold
-            capitalize text-light hover:border-dark hover:bg-transparent hover:text-dark 
-            dark:bg-light dark:text-dark dark:hover:border-light dark:hover:bg-dark dark:hover:text-light
-            md:p-2 md:px-4 md:text-base
-             `}
-        >
-          View Articles
-        </Link>
       </div>
     </div>
   );
