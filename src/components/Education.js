@@ -27,7 +27,8 @@ const Details = ({
           <a
             className="capitalize text-slideGreen dark:text-primaryDark"
             href={instituteLink}
-            target={"_blank"}
+            target="_blank"
+            rel="noopener noreferrer"
           >
             @{institute}
           </a>
@@ -40,15 +41,13 @@ const Details = ({
             {sentence.trim()}
           </p>
         ))}
-        {/* <p className="font-medium w-full md:text-sm"> {details}</p> */}
       </motion.div>
     </li>
   );
 };
 
-const Experience = () => {
+const Education = () => {
   const ref = useRef(null);
-
   const { scrollYProgress } = useScroll({
     target: ref,
     offset: ["start end", "center start"],
@@ -63,7 +62,7 @@ const Experience = () => {
       <div ref={ref} className="relative w-[75%] mx-auto lg:w-[90%] md:w-full">
         <motion.div
           className="absolute left-9 top-0 w-[4px] md:w-[2px] md:left-[30px] xs:left-[20px] h-full bg-primaryDark shadow-3xl 
-            origin-top  dark:bg-primaryDark dark:shadow-3xl"
+            origin-top dark:bg-primaryDark dark:shadow-3xl"
           style={{ scaleY: scrollYProgress }}
         />
 
@@ -112,4 +111,4 @@ const Experience = () => {
   );
 };
 
-export default Experience;
+export default Education;
