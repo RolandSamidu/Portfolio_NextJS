@@ -40,11 +40,11 @@ export default function About() {
     <>
       <Head>
         <link
-          rel="canonical"
-          href="https://travislord.xyz/projects/clay-gatsby-theme"
+          rel="Projects"
+          href="https://github.com/RolandSamidu"
         ></link>
         <title>
-          Clay Theme | Unlocking The Power Of Gatsby V5+ | By Travis Lord
+          Web and Mobile Apps Development | By DewA3RS
         </title>
         <meta
           name="description"

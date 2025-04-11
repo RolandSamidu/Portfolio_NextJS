@@ -8,7 +8,6 @@ import { useRef } from "react";
 import { HireMe2 } from "@/components/HireMe2";
 
 import proj1 from "../../public/images/projects/clay-theme.png";
-import loading from "../../public/images/articles/GTA6-VICE.gif";
 
 import TransitionEffect from "@/components/TransitionEffect";
 import { motion, useMotionValue } from "framer-motion";
@@ -231,7 +230,7 @@ export default function Projects() {
   return (
     <>
       <Head>
-        <title>Projects | By NexTemp</title>
+        <title>Projects | By DewA3RS</title>
         <meta
           name="description"
           content="NexTemp, A open-source portfolio theme built with Nextjs"
@@ -244,18 +243,18 @@ export default function Projects() {
       >
         <Layout className="pt-16">
           <AnimatedText
-            text="Imagination Transforms the World ✨"
+            text="My Projects and Works✨"
             className="mb-16 !text-8xl !leading-tight lg:!text-7xl sm:mb-8 sm:!text-6xl xs:!text-4xl"
           />
           <div className="grid grid-cols-12 gap-24 gap-y-32 xl:gap-x-16 lg:gap-x-8 md:gap-y-24 sm:gap-x-0">
             <div className="col-span-12">
               <FeaturedProject
-                type="Design & Development"
-                tools="HTML | CSS | JavaScript | Gatsby"
-                title="Clay - Gatsby Theme"
+                type="Research Project"
+                tools="Python | KNN Architecture | Flutter | Android Studio"
+                title="CardioCare Mobile App"
                 summary="Image-centric Gatsby theme for publishers, portfolio, photographers blogs and more."
                 img={proj1}
-                date="2023"
+                date="2023 - 2024"
                 link="/projects/clay-gatsby-theme"
                 github="https://travislord.xyz/projects/clay-gatsby-theme"
               />
@@ -286,13 +285,7 @@ export default function Projects() {
 
           <div>
             <ul className="flex flex-col items-center relative pt-16">
-              <Article
-                title="Adding more soon, thanks for the interest!"
-                img={loading}
-                time="1 min read"
-                date=""
-                link="https://github.com/lilxyzz/"
-              />
+              
             </ul>
 
             <div className="mt-2 flex items-center justify-between gap-3 grid-cols-2">
@@ -316,7 +309,7 @@ export default function Projects() {
             md:p-2 md:px-4 md:text-base
              `}
               >
-                Get To Know Me
+                Learn More About Me
               </Link>
             </div>
             <HireMe2 />
