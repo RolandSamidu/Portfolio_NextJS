@@ -2,12 +2,12 @@ import AnimatedText from "@/components/AnimatedText";
 import { motion, useMotionValue } from "framer-motion";
 import Head from "next/head";
 import Image from "next/image";
-import blog1 from "../../public/images/articles/New-Technology.jpg";
+import blog1 from "../../public/images/articles/Clay-Gatsby-theme.webp";
 import blog2 from "../../public/images/articles/My-MacBook-Setup-For-Development-2024.webp";
 
 import Layout from "@/components/Layout";
 import Link from "next/link";
-import { useRef, useState } from "react";
+import { useRef } from "react";
 import TransitionEffect from "@/components/TransitionEffect";
 import { HireMe2 } from "@/components/HireMe2";
 
@@ -127,53 +127,6 @@ const FeaturedArticle = ({ img, title, time, summary, link }) => {
   );
 };
 
-// 📸 PhotoViewer Component
-const PhotoViewer = () => {
-  const photos = [
-    "/images/social/insta-post-1.jpeg",
-    "/images/social/insta-post-1.jpeg",
-    "/images/social/insta-post-1.jpeg",
-    "/images/social/insta-post-1.jpeg",
-    "/images/social/insta-post-1.jpeg",
-    "/images/social/insta-post-1.jpeg",
-  ];
-  const [selected, setSelected] = useState(photos[0]);
-
-  return (
-    <div className="bg-white dark:bg-dark w-full max-w-6xl mx-auto mt-20 rounded-2xl shadow-lg grid grid-cols-1 md:grid-cols-2 overflow-hidden border border-dark dark:border-light">
-      {/* Thumbnails */}
-      <div className="grid grid-cols-3 gap-2 p-4 overflow-y-auto max-h-[80vh] border-r dark:border-light border-dark">
-        {photos.map((src, i) => (
-          <img
-            key={i}
-            src={src}
-            alt={`Photo ${i}`}
-            onClick={() => setSelected(src)}
-            className={`cursor-pointer rounded-lg object-cover transition-all duration-300 hover:opacity-100 ${
-              selected === src
-                ? "ring-2 ring-offset-2 ring-dark dark:ring-light"
-                : "opacity-70"
-            }`}
-          />
-        ))}
-      </div>
-      {/* Preview */}
-      <div className="p-4 flex flex-col justify-between items-center">
-        <img
-          src={selected}
-          alt="Selected"
-          className="rounded-xl w-full h-[300px] object-cover"
-        />
-        <div className="flex justify-between items-center w-full mt-4 text-gray-500 dark:text-gray-400 text-sm">
-          <span>2024</span>
-          <span className="flex-1 mx-4 border-t border-dark dark:border-light"></span>
-          <span>2025</span>
-        </div>
-      </div>
-    </div>
-  );
-};
-
 export default function Articles() {
   return (
     <>
@@ -190,17 +143,18 @@ export default function Articles() {
       >
         <Layout className="pt-16">
           <AnimatedText
-            text="Tech World 🌎"
+            text="Words Influence the World 🌎"
             className="!text-8xl !leading-tight mb-16 lg:!text-7xl sm:!text-6xl xs:!text-4xl sm:mb-8"
           />
           <ul className="grid grid-cols-2 gap-16 lg:gap-8 md:grid-cols-1 md:gap-y-16">
             <FeaturedArticle
               img={blog1}
-              title="New Technologies Accept Now"
-              time="by Adrian Cucerzan"
-              summary="New web and mobile application development technologies include 5G integration, AI-powered personalization, augmented reality (AR) and virtual reality (VR), low-code/no-code development, IoT integration, mobile wallets/payments, enhanced security, and apps for foldable devices. For web development, key technologies include React, Angular, Vue.js, Node.js, GraphQL, and Progressive Web Apps (PWAs)."
-              link="https://blog.mobiversal.com/the-future-of-mobile-and-web-development-insights-from-a-mobile-app-development-company.html#:~:text=One%20of%20the%20most%20significant,platforms%2C%20from%20desktops%20to%20smartphones."
+              title="Unlocking the Power of Gatsby & Netlify"
+              time="2 min read"
+              summary="Image-centric Gatsby theme for publishers, portfolio, photographers blogs and more."
+              link="https://travislord.xyz/articles/guide-to-clay-theme-gatsby-web-app"
             />
+
             <FeaturedArticle
               img={blog2}
               title="My MacBook Setup For Development 2024"
@@ -220,17 +174,17 @@ export default function Articles() {
               {
                 src: "/images/social/insta-post-1.jpeg",
                 alt: "Instagram Promo 1",
-                link: "https://www.instagram.com/rolandsamindu",
+                link: "https://www.instagram.com/vipyellowgirl",
               },
               {
                 src: "/images/social/insta-post-1.jpeg",
                 alt: "Product Teaser",
-                link: "https://www.instagram.com/rolandsamindu",
+                link: "https://www.instagram.com/vipyellowgirl",
               },
               {
                 src: "/images/social/insta-post-1.jpeg",
                 alt: "Behind the Scenes",
-                link: "https://www.instagram.com/rolandsamindu",
+                link: "https://www.instagram.com/vipyellowgirl",
               },
             ].map(({ src, alt, link }, idx) => (
               <motion.a
@@ -255,18 +209,15 @@ export default function Articles() {
           <p className="text-center text-lg font-medium text-dark dark:text-light mt-6">
             Follow my journey on{" "}
             <Link
-              href="https://www.instagram.com/rolandsamindu"
+              href="https://www.instagram.com/vipyellowgirl"
               target="_blank"
               className="underline text-primary dark:text-primaryDark"
             >
-              @rolandsamindu
+              @vipyellowgirl
             </Link>{" "}
             for more!
           </p>
           {/* Social Media Image Gallery End */}
-
-          {/* Injected Photo Viewer */}
-          <PhotoViewer />
 
           <div className="mt-8 flex items-center justify-between gap-3 grid-cols-2">
             <Link
