@@ -8,8 +8,9 @@ import AnimatedText from "@/components/AnimatedText";
 import TransitionEffect from "@/components/TransitionEffect";
 import { GithubIcon } from "@/components/Icons";
 import { DevIcon } from "@/components/Icons";
+import { BookIcon } from "@/components/Icons";
 
-import proj1 from "/public/images/projects/clay-theme.png";
+import proj1 from "/public/images/projects/research-project.png";
 
 function AnimatedNumberFramerMotion({ value }) {
   const ref = useRef(null);
@@ -41,14 +42,12 @@ export default function About() {
       <Head>
         <link
           rel="Projects"
-          href="https://github.com/RolandSamidu"
+          href="https://github.com/RolandSamidu/Research_Project_2023-24_015"
         ></link>
-        <title>
-          Web and Mobile Apps Development | By DewA3RS
-        </title>
+        <title>CardioCare Research Project | By DewA3RS</title>
         <meta
           name="description"
-          content="I am thrilled to share Clay Theme with the web development community! I have recently launched Clay Theme, a cutting-edge Gatsby Framework Template."
+          content="As the team leader of a passionate group of final-year undergraduates, I led the development of CardioCare - a mobile app that promotes heart health and wellness. Combining our knowledge in technology and healthcare, we aimed to make heart health management more accessible and effective for all."
         />
       </Head>
 
@@ -58,7 +57,7 @@ export default function About() {
       >
         <Layout className="pt-16">
           <AnimatedText
-            text="Clay - Gatsby Theme"
+            text="CardioCare Mobile App"
             className="mb-16 !text-8xl !leading-tight lg:!text-7xl sm:!text-6xl xs:!text-4xl sm:mb-8"
           />
 
@@ -68,31 +67,32 @@ export default function About() {
             md:col-span-8"
             >
               <h2 className="mb-4 text-2xl font-bold capitalize text-dark/75 dark:text-light/75">
-                Unlocking the Power of Gatsby v5+ & NetlifyCMS with Clay Theme.
+                Enhancing Heart Health with AI: A Multifunctional Mobile App for
+                Prediction, Nutrition, and Pharmacy Support.
               </h2>
               <h3 className="mb-4 text-lg font-bold  text-lightGreen dark:text-primaryDark">
-                Content | Web Design | UX/UI | Development
+                Python | KNN | YOLOv5 | Flutter | Android Studio
               </h3>
               <div classNname="w-full border-2 border-solid border-light bg-light"></div>
               <p className="">
-                I am thrilled to share some exciting news with the web
-                development community! I have recently launched a cutting-edge
-                Gatsby Framework Template called Clay, meticulously crafted to
-                seamlessly integrate with Netlify CMS, providing an effortless
-                and efficient solution for content management in the realm of
-                web development.
+                Heart diseases remain one of the most pressing global health
+                issues, underscoring the vital importance of early intervention
+                and preventive care. With this in mind, our team set out to
+                develop a mobile application that addresses various aspects of
+                heart health management, aiming to make proactive care both
+                accessible and efficient for the public.
               </p>
               <h4 className="mt-4 text-lg font-800 capitalize text-dark/75 dark:text-light/75">
-                Unleashing the Power of Gatsby Framework
+                An All-in-One Mobile Health Solution
               </h4>
               <p className="my-4">
-                At the heart of Clay lies the robust Gatsby Framework. This
-                innovative framework empowers developers to leverage the latest
-                web technologies, including React, GraphQL, and Webpack. The
-                outcome is nothing short of exceptional—Clay delivers
-                lightning-fast, highly optimized websites, waving goodbye to the
-                era of slow load times and ushering in an age of unparalleled
-                performance.
+                The mobile application is designed with four core components:
+                predicting the risk of becoming a heart patient, identifying the
+                risk category for those already diagnosed, recognizing food
+                items and providing dietary recommendations, and suggesting the
+                best-rated nearby pharmacies for fulfilling prescriptions. Each
+                feature was carefully designed to provide personalized support
+                for individuals at different stages of heart health management.
               </p>
 
               <div className="mt-2 flex items-center grid-cols-8 gap-4 sm:gap-8">
@@ -104,13 +104,13 @@ export default function About() {
             dark:bg-light dark:text-dark dark:hover:border-light dark:hover:bg-dark dark:hover:text-light
             md:p-2 md:px-4 md:text-base"
                   aria-label="Visit Theme Demo"
-                  href="https://clay-theme.netlify.app"
+                  href="https://cardiosync.github.io/CardioCare/"
                   target={"_blank"}
                 >
                   Visit Demo
                 </Link>
                 <Link
-                  href="https://github.com/lilxyzz/clay-theme"
+                  href="https://github.com/RolandSamidu/Research_Project_2023-24_015"
                   target={"_blank"}
                   className="w-10"
                   aria-label="github link"
@@ -118,12 +118,12 @@ export default function About() {
                   <GithubIcon />
                 </Link>
                 <Link
-                  href="https://dev.to/lilxyzz/clay-theme-unlocking-the-power-of-gatsby-v5-and-netlifycms-with-clay-theme-njn"
+                  href="https://nspace.nsbm.ac.lk/items/d105bcb2-25de-4e57-9b29-e94ca6959e62"
                   target={"_blank"}
                   className="w-10"
                   aria-label="github link"
                 >
-                  <DevIcon />
+                  <BookIcon />
                 </Link>
               </div>
             </div>

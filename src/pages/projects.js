@@ -7,8 +7,7 @@ import Link from "next/link";
 import { useRef } from "react";
 import { HireMe2 } from "@/components/HireMe2";
 
-import proj1 from "../../public/images/projects/clay-theme.png";
-import loading from "../../public/images/articles/GTA6-VICE.gif";
+import proj1 from "../../public/images/projects/research-project.png";
 
 import TransitionEffect from "@/components/TransitionEffect";
 import { motion, useMotionValue } from "framer-motion";
@@ -231,7 +230,7 @@ export default function Projects() {
   return (
     <>
       <Head>
-        <title>Projects | By NexTemp</title>
+        <title>Projects | By DewA3RS</title>
         <meta
           name="description"
           content="NexTemp, A open-source portfolio theme built with Nextjs"
@@ -244,20 +243,20 @@ export default function Projects() {
       >
         <Layout className="pt-16">
           <AnimatedText
-            text="Imagination Transforms the World ✨"
+            text="My Projects and Works✨"
             className="mb-16 !text-8xl !leading-tight lg:!text-7xl sm:mb-8 sm:!text-6xl xs:!text-4xl"
           />
           <div className="grid grid-cols-12 gap-24 gap-y-32 xl:gap-x-16 lg:gap-x-8 md:gap-y-24 sm:gap-x-0">
             <div className="col-span-12">
               <FeaturedProject
-                type="Design & Development"
-                tools="HTML | CSS | JavaScript | Gatsby"
-                title="Clay - Gatsby Theme"
-                summary="Image-centric Gatsby theme for publishers, portfolio, photographers blogs and more."
+                type="Research Project"
+                tools="Python | KNN | YOLOv5 | Flutter | Android Studio"
+                title="CardioCare Mobile App"
+                summary="As the team leader of a passionate group of final-year undergraduates, I led the development of CardioCare - a mobile app that promotes heart health and wellness. Combining our knowledge in technology and healthcare, we aimed to make heart health management more accessible and effective for all."
                 img={proj1}
-                date="2023"
-                link="/projects/clay-gatsby-theme"
-                github="https://travislord.xyz/projects/clay-gatsby-theme"
+                date="2023 - 2024"
+                link="/projects/cardio-care-research-project"
+                github="https://github.com/RolandSamidu/Research_Project_2023-24_015"
               />
             </div>
             <div className="col-span-6 sm:col-span-12">
@@ -285,15 +284,7 @@ export default function Projects() {
           </div>
 
           <div>
-            <ul className="flex flex-col items-center relative pt-16">
-              <Article
-                title="Adding more soon, thanks for the interest!"
-                img={loading}
-                time="1 min read"
-                date=""
-                link="https://github.com/lilxyzz/"
-              />
-            </ul>
+            <ul className="flex flex-col items-center relative pt-16"></ul>
 
             <div className="mt-2 flex items-center justify-between gap-3 grid-cols-2">
               <Link
@@ -316,7 +307,7 @@ export default function Projects() {
             md:p-2 md:px-4 md:text-base
              `}
               >
-                Get To Know Me
+                Learn More About Me
               </Link>
             </div>
             <HireMe2 />
