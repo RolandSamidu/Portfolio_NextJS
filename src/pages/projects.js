@@ -7,7 +7,7 @@ import Link from "next/link";
 import { useRef } from "react";
 import { HireMe2 } from "@/components/HireMe2";
 
-import proj1 from "../../public/images/projects/clay-theme.png";
+import proj1 from "../../public/images/projects/research-project.png";
 
 import TransitionEffect from "@/components/TransitionEffect";
 import { motion, useMotionValue } from "framer-motion";
@@ -250,13 +250,13 @@ export default function Projects() {
             <div className="col-span-12">
               <FeaturedProject
                 type="Research Project"
-                tools="Python | KNN Architecture | Flutter | Android Studio"
+                tools="Python | KNN | YOLOv5 | Flutter | Android Studio"
                 title="CardioCare Mobile App"
-                summary="Image-centric Gatsby theme for publishers, portfolio, photographers blogs and more."
+                summary="As the team leader of a passionate group of final-year undergraduates, I led the development of CardioCare - a mobile app that promotes heart health and wellness. Combining our knowledge in technology and healthcare, we aimed to make heart health management more accessible and effective for all."
                 img={proj1}
                 date="2023 - 2024"
-                link="/projects/clay-gatsby-theme"
-                github="https://travislord.xyz/projects/clay-gatsby-theme"
+                link="/projects/cardio-care-research-project"
+                github="https://github.com/RolandSamidu/Research_Project_2023-24_015"
               />
             </div>
             <div className="col-span-6 sm:col-span-12">
@@ -284,9 +284,7 @@ export default function Projects() {
           </div>
 
           <div>
-            <ul className="flex flex-col items-center relative pt-16">
-              
-            </ul>
+            <ul className="flex flex-col items-center relative pt-16"></ul>
 
             <div className="mt-2 flex items-center justify-between gap-3 grid-cols-2">
               <Link

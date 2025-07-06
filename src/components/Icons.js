@@ -553,3 +553,28 @@ export const DevIcon = ({ className, ...rest }) => (
     </g>
   </svg>
 );
+
+export const BookIcon = ({ className, ...rest }) => (
+  <svg
+    fill="#000000"
+    viewBox="0 0 24 24"
+    xmlns="http://www.w3.org/2000/svg"
+    className={className}
+    {...rest}
+  >
+    <g id="SVGRepo_bgCarrier" strokeWidth="0">
+      <rect
+        x="0"
+        y="0"
+        width="24"
+        height="24"
+        rx="12"
+        fill="#f5f5f5"
+      ></rect>
+    </g>
+    <g id="SVGRepo_tracerCarrier" strokeLinecap="round" strokeLinejoin="round" />
+    <g id="SVGRepo_iconCarrier">
+      <path d="M19 2H8a2 2 0 0 0-2 2v1H5a1 1 0 0 0-1 1v13a2 2 0 0 0 2 2h14V4a2 2 0 0 0-2-2zM6 18V6h1v10a1 1 0 0 0 1 1h11v1H7a1 1 0 0 1-1-1zm13 1H8a1 1 0 0 1-1-1V4h12v15z" />
+    </g>
+  </svg>
+);
