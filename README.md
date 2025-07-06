@@ -1,4 +1,4 @@
-# NexTemp | A Next.js Personal Portfolio
+# DewaA3RS | A Next.js Personal Portfolio
 
 ## 📚 Tech Stack
 Next.js 14+
